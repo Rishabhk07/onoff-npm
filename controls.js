@@ -84,10 +84,25 @@ function left() {
 
 
 }
+function stop() {
+    pin17.write(0 , function () {
+        console.log("stop the car pin17 false")
+    });
+    pin27.write(0 , function () {
+        console.log("stop the car pin27 false")
+    });
+    pin22.write(0 , function () {
+        console.log("stop the car pin22 false")
+    });
+    pin10.write(0 , function () {
+        console.log("stop the car pin10 false")
+    });
+}
 
 module.exports = {
     forward: forward,
     backward: backward,
     left: left,
-    right: right
+    right: right,
+    stop:stop
 };

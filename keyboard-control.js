@@ -27,6 +27,9 @@ process.stdin.on('keypress' , function (ch, key) {
     if(key.name == "d"){
         controls.right();
     }
+    if(key.name == "space"){
+        controls.stop();
+    }
 
 });
 

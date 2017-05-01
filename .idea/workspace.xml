@@ -37,24 +37,23 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="controls.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="controls.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/controls.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+                <state relative-caret-position="387">
+                  <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#48#0" expanded="false" />
-                    <marker date="1493674208000" expanded="true" signature="1116:1554" ph="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="keyboard-control.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="keyboard-control.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/keyboard-control.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+                <state relative-caret-position="96">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#48#0" expanded="false" />
                   </folding>
@@ -136,8 +135,8 @@
       <list>
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/try.js" />
-        <option value="$PROJECT_DIR$/keyboard-control.js" />
         <option value="$PROJECT_DIR$/controls.js" />
+        <option value="$PROJECT_DIR$/keyboard-control.js" />
       </list>
     </option>
   </component>
@@ -281,12 +280,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493661303966</updated>
       <workItem from="1493661305291" duration="2110000" />
-      <workItem from="1493666626666" duration="3438000" />
+      <workItem from="1493666626666" duration="3697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5548000" />
+    <option name="totallyTimeSpent" value="5807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -370,23 +369,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keyboard-control.js">
+    <entry file="file://$PROJECT_DIR$/controls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="387">
+          <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
           <folding>
             <element signature="e#0#48#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controls.js">
+    <entry file="file://$PROJECT_DIR$/keyboard-control.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+        <state relative-caret-position="96">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="false" />
-            <marker date="1493674208000" expanded="true" signature="1116:1554" ph="{...}" />
           </folding>
         </state>
       </provider>
