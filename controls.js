@@ -44,7 +44,50 @@ function backward() {
     });
 }
 
+function right() {
+    //move left front wheel  & right back wheel forward
+    pin17.write(1,function () {
+        console.log("true on pin17");
+    });
+    pin27.write(0 , function () {
+        console.log("false on pin 27");
+    });
+
+    //move right front wheel & left back wheel backward
+    pin10.write(1 , function () {
+        console.log("true on pin 10")
+    });
+    pin22.write( 0 , function () {
+        console.log("false on pin 22")
+    });
+}
+
+function left() {
+
+    //move right front wheel & left back wheel forward
+    pin22.write(1 , function () {
+        console.log("false on pin 22")
+    });
+    pin10.write(0 , function () {
+        console.log("true on pin 10")
+    });
+
+
+    //move left front wheel  & right back wheel backward
+    pin27.write(1 , function () {
+        console.log("false on pin 27");
+    });
+    pin17.write(0,function () {
+        console.log("true on pin17");
+    });
+
+
+
+}
+
 module.exports = {
     forward: forward,
-    backward: backward
+    backward: backward,
+    left: left,
+    right: right
 };

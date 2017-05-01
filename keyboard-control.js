@@ -19,6 +19,15 @@ process.stdin.on('keypress' , function (ch, key) {
     if(key.name == 's'){
         controls.backward();
     }
+
+    if(key.name == "a"){
+        controls.left();
+    }
+
+    if(key.name == "d"){
+        controls.right();
+    }
+
 });
 
 process.stdin.setRawMode(true);
